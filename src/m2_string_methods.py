@@ -1,7 +1,7 @@
 txt = "The quick brown fox jumps over the lazy dog."
 
 ###############################################################################
-# TODO: 1. (1 pt)
+# DONE: 1. (1 pt)
 #   For the following exercises, you may need to reference the material on 
 #   string methods.
 #
@@ -15,7 +15,8 @@ txt = "The quick brown fox jumps over the lazy dog."
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(str.upper(txt))
+print(str.lower(txt))
 ###############################################################################
 # TODO: 2. (1 pt)
 #   Immediately below this _TODO_, write code that:
@@ -25,7 +26,8 @@ txt = "The quick brown fox jumps over the lazy dog."
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+color = txt.replace("brown", "pink")
+print(color)
 ###############################################################################
 # TODO: 3. (2 pts)
 #   Immediately below this _TODO_, write code that:
@@ -37,3 +39,5 @@ txt = "The quick brown fox jumps over the lazy dog."
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+capitalize = str.title(txt)
+print(capitalize)
